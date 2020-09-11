@@ -113,7 +113,7 @@ $ sudo apt update
 $ sudo apt install --reinstall nvidia-l4t-gstreamer
 $ sudo tar -xvpf deepstream_sdk_v5.0.0_jetson.tbz2 -C /
 $ cd /opt/nvidia/deepstream/deepstream-5.0
-$ sudo ./install.sh$ sudo ldconfig
+$ sudo ./install.sh sudo ldconfig
 
 # Test out Deepstream to make sure it's working (NOTE: if you do the manual install you will not have source2.txt, just use the source4_...txt file to test)
 $ deepstream-app -c /opt/nvidia/deepstream/deepstream/samples/configs/deepstream-app/source2.txt
